@@ -1,0 +1,76 @@
+RNG_test using PractRand version 0.94
+RNG = Culumi, seed = 0x9a9e9771
+test set = expanded, folding = extra
+
+rng=Culumi, seed=0x9a9e9771
+length= 256 megabytes (2^28 bytes), time= 2.3 seconds
+  no anomalies in 1151 test result(s)
+
+rng=Culumi, seed=0x9a9e9771
+length= 512 megabytes (2^29 bytes), time= 6.3 seconds
+  no anomalies in 1220 test result(s)
+
+rng=Culumi, seed=0x9a9e9771
+length= 1 gigabyte (2^30 bytes), time= 13.0 seconds
+  no anomalies in 1294 test result(s)
+
+rng=Culumi, seed=0x9a9e9771
+length= 2 gigabytes (2^31 bytes), time= 23.7 seconds
+  no anomalies in 1368 test result(s)
+
+rng=Culumi, seed=0x9a9e9771
+length= 4 gigabytes (2^32 bytes), time= 42.2 seconds
+  no anomalies in 1448 test result(s)
+
+rng=Culumi, seed=0x9a9e9771
+length= 8 gigabytes (2^33 bytes), time= 84.8 seconds
+  no anomalies in 1543 test result(s)
+
+rng=Culumi, seed=0x9a9e9771
+length= 16 gigabytes (2^34 bytes), time= 161 seconds
+  no anomalies in 1640 test result(s)
+
+rng=Culumi, seed=0x9a9e9771
+length= 32 gigabytes (2^35 bytes), time= 292 seconds
+  no anomalies in 1716 test result(s)
+
+rng=Culumi, seed=0x9a9e9771
+length= 64 gigabytes (2^36 bytes), time= 603 seconds
+  no anomalies in 1807 test result(s)
+
+rng=Culumi, seed=0x9a9e9771
+length= 128 gigabytes (2^37 bytes), time= 1184 seconds
+  no anomalies in 1902 test result(s)
+
+rng=Culumi, seed=0x9a9e9771
+length= 256 gigabytes (2^38 bytes), time= 2191 seconds
+  no anomalies in 1983 test result(s)
+
+rng=Culumi, seed=0x9a9e9771
+length= 512 gigabytes (2^39 bytes), time= 4618 seconds
+  no anomalies in 2058 test result(s)
+
+rng=Culumi, seed=0x9a9e9771
+length= 1 terabyte (2^40 bytes), time= 9162 seconds
+  no anomalies in 2132 test result(s)
+
+rng=Culumi, seed=0x9a9e9771
+length= 2 terabytes (2^41 bytes), time= 18017 seconds
+  no anomalies in 2194 test result(s)
+
+rng=Culumi, seed=0x9a9e9771
+length= 4 terabytes (2^42 bytes), time= 37092 seconds
+  no anomalies in 2255 test result(s)
+
+rng=Culumi, seed=0x9a9e9771
+length= 8 terabytes (2^43 bytes), time= 73238 seconds
+  no anomalies in 2313 test result(s)
+
+rng=Culumi, seed=0x9a9e9771
+length= 16 terabytes (2^44 bytes), time= 146833 seconds
+  no anomalies in 2366 test result(s)
+
+rng=Culumi, seed=0x9a9e9771
+length= 32 terabytes (2^45 bytes), time= 291613 seconds
+  no anomalies in 2417 test result(s)
+
