@@ -12,7 +12,8 @@ private Vector128<ulong> _v0, _v1;
 public Vector128<ulong> Next()
 {
     Vector128<ulong> v0 = _v0, v1 = _v1;
-    var result = Vector128.AsUInt64(Vector128.Shuffle(Vector128.AsByte(v0 + v1), Vector128.Create(0x0100030205040706, 0x09080b0a0d0c0f0e).AsByte())) + v1;
+    var result = Vector128.AsUInt64(Vector128.Shuffle(Vector128.AsByte(v0 + v1),
+        Vector128.Create(0x0100030205040706, 0x09080b0a0d0c0f0e).AsByte())) + v1;
 
     Vector128<ulong> clmul = Pclmulqdq.CarrylessMultiply(v0, Vector128.Create(0xbbc1b31a6451a582, 0), 0x00);
 
